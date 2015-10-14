@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sudhee.About" >
+	<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:src="@drawable/cbitlogo" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="10sp"
+                 android:fontFamily="sans-serif-condensed"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textSize="25dp"
+                android:textColor="#3A3C39"
+                android:layout_gravity="center"
+                android:text="Tecstasy2K15" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEVELOPER"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="20sp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#0D8E01"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageButton
+                android:id="@+id/g"
+                 android:layout_width="240dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                 android:layout_marginTop="10sp"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:src="@drawable/gmail" />
+
+            <ImageButton
+                android:id="@+id/gith"
+                android:layout_width="240dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10sp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/git" />
+
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>
